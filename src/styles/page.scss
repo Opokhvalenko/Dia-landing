@@ -9,11 +9,11 @@
     padding: 0;
     min-width: 320px;
     scroll-behavior: smooth;
-  }
+      }
 
   &__menu {
-    overflow: auto;
     position: fixed;
+    z-index: 200;
     top: 0;
     left: 0;
     right: 0;
@@ -27,6 +27,7 @@
       z-index: 20;
       pointer-events: all;
       transform: translateX(0);
+
     }
 
     &:has(.page__menu:target) {

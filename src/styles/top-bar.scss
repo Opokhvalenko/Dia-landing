@@ -12,9 +12,10 @@
   }
 
   &__side {
+    overflow: hidden;
     display: flex;
     align-items: center;
-  }
+     }
 
   &__side--left {
     gap: 32px;
