@@ -61,8 +61,12 @@ function() {
   document.getElementsByTagName('body')[0].style.overflow = 'hidden';
 });
 
-document.getElementById('closeButton').addEventListener('click',
-function() {
-  document.getElementsByTagName('body')[0].style.overflow = 'auto';
-});
+const buttonSelection = document.getElementsByClassName('closeButton');
 
+for(var i = 0; i < buttonSelection.length; i++) {
+  (function(index) {
+    buttonSelection[index].addEventListener("click", function() {
+      document.getElementsByTagName('body')[0].style.overflow = 'auto';
+     })
+  })(i);
+}

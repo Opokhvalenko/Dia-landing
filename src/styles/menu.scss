@@ -54,7 +54,9 @@
     &--fb {
       background-image: url(../images/icon/facebook1.png);
       transition: background-image $effect-duration;
+      
       @include hover (transform, scale(1.2));
+
       &:hover {
         background-image: url(../images/icon/facebook1.png);
         background-color: $blue;
@@ -65,7 +67,9 @@
     &--inst {
       background-image: url(../images/icon/instagram1.png);
       transition: background-image $effect-duration;
+
       @include hover (transform, scale(1.2));
+
       &:hover {
         background-image: url(../images/icon/instagram1.png);
         background-color: $blue;
@@ -76,7 +80,9 @@
     &--tw {
       background-image: url(../images/icon/twitter2.png);
       transition: background-image $effect-duration;
+
       @include hover (transform, scale(1.2));
+
       &:hover {
         background-image: url(../images/icon/twitter2.png);
         background-color: $blue;
