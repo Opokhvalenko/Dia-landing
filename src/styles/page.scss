@@ -12,6 +12,7 @@
       }
 
   &__menu {
+    overflow: auto;
     position: fixed;
     z-index: 200;
     top: 0;

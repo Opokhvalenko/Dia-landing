@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  overflow: hidden;
   padding-block: 20px;
 
   @include content-padding-inline;
@@ -12,13 +12,13 @@
   }
 
   &__side {
-    overflow: hidden;
     display: flex;
     align-items: center;
      }
 
   &__side--left {
     gap: 32px;
+
 
     &__logo {
       display: flex;

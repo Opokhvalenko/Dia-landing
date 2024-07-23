@@ -55,3 +55,14 @@ function move(direction) {
       break;
   }
 }
+
+document.getElementById('burgerButton').addEventListener('click',
+function() {
+  document.getElementsByTagName('body')[0].style.overflow = 'hidden';
+});
+
+document.getElementById('closeButton').addEventListener('click',
+function() {
+  document.getElementsByTagName('body')[0].style.overflow = 'auto';
+});
+
