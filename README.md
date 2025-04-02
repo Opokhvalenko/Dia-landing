@@ -1,7 +1,7 @@
-# Project: Dia - Strategic Agency Website
+# Project: Visionary Agency Website
 
 <h2>Project Description</h2>
-<p>Dia is a modern, responsive website for a strategic agency that believes in the power of bold ideas to solve business challenges. The website showcases the agency's services, expertise, and testimonials from satisfied clients, providing a comprehensive overview of what the agency offers. The design is sleek and user-friendly, ensuring a seamless experience for visitors.</p>
+<p>Visionary Agency is a modern, responsive website for a strategic agency that believes in the power of bold ideas to solve business challenges. The website showcases the agency's services, expertise, and testimonials from satisfied clients, providing a comprehensive overview of what the agency offers. The design is sleek and user-friendly, ensuring a seamless experience for visitors.</p>
 <h2>Features</h2>
 <p><strong>Responsive Design:</strong>  Ensures the website looks great on all devices, from desktops to mobile phones.
 <br>
